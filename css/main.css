@@ -1,0 +1,113 @@
+
+/* Page Styles
+================================ */
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font: normal 1em/1.5 sans-serif;
+	color: #222;
+	background-color: #FFf;
+	
+}
+img {
+	/*border: solid 1px;*/
+	padding: 5px;
+}
+
+h2 {
+	font-size: 1.25em;
+	text-transform: uppercase;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+p {
+	font-family: 'Nunito', sans-serif;
+
+}
+
+/* Main Layout Styles
+================================ */
+
+.main-header {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color:  #2F4F4F;
+
+	
+}
+.main-logo {
+	margin-top: 0;
+	margin-bottom: 0;
+	/*font-size: 1.5em;*/
+	font-family: "Open+Sans";
+}
+.main-logo a, 
+.main-nav a {
+	display: block;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+	font-family: "Open+Sans";
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+.main-logo a { 
+	background-color:  #2F4F4F; 
+}
+.main-nav a { 
+	background-color: #2F4F4F; 
+}
+
+
+/* Media Queries
+================================ */
+
+@media (min-width: 769px) {
+
+	
+
+	.main-logo,
+	.main-nav li {
+		float: left;
+	}
+	.main-logo {
+		margin-right: 70px;
+	}
+	.main-nav li {
+		margin-left: 10px;
+	}
+	
+	}
+	.main-banner {
+		background: #dfe2e4;
+		text-align: center;
+		padding: 35px 15px;
+	}
+
+	
+	/* Float Clearfix
+	================================ */
+
+	.group:after {
+	  content: " ";
+	  display: table;
+	  clear: both;
+	}
+
+	/* Imagery
+	================================ */
+
+	.feat-img {
+		width: 50%;
+		float: left;
+		margin-right: 25px;
+	}
+
+}
+
